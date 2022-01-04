@@ -6,7 +6,7 @@
   "main": "lib/binding.js",
   "scripts": {
     "install": "cmake-js build",
-    "test": "node --napi-modules ./test/test_binding.js",
+    "test": "node ./test/test_binding.js",
     "cmake-js": "cmake-js"
   },
   "devDependencies": {
